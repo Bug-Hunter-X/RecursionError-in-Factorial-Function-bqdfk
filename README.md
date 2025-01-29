@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Python involving recursion depth.  The `factorial` function, while correct for positive integers, causes a `RecursionError` when given a negative input because the recursion never terminates. The solution shows how to handle this by adding input validation.
